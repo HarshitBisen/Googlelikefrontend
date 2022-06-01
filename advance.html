@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Advanced Search</title>
+		<style type="text/css">
+			form  { display: table;      }
+			p     { display: table-row;  }
+			label { display: table-cell; }
+			input { display: table-cell; }
+		</style>
+	</head>
+	<body style="background-color: black;">
+		<a href="index.html" style="float: right; color: ghostwhite;">Google Search</a>
+		<h1 style="text-align: center; color: ghostwhite;">My Front End for Google Advanced Search</h1>
+		<form action="https://www.google.co.in/search">
+			<b style="color: ghostwhite;">Find pages with...<br><br></b>
+			<p>
+				<label style="color: ghostwhite;"for="as_q">all these words:</label>
+				<input style=" width: 300px; height: 25px;" type="text" name="as_q" id="as_q" align="right"><br><br>
+			</p>
+			<p>
+				<label style="color: ghostwhite;"for="as_epq">this exact word or phrase:</label>
+				<input style=" width: 300px; height: 25px;" type="text" name="as_epq" id="as_epq"><br><br>
+			</p>
+			<p>
+				<label style="color: ghostwhite;"for="as_oq">any of these words:</label>
+				<input style=" width: 300px; height: 25px;" type="text" name="as_oq" id="as_oq"><br><br>
+			</p>
+			<p>
+				<label style="color: ghostwhite;"for="as_eq">none of these words:</label>
+				<input style=" width: 300px; height: 25px;" type="text" name="as_eq" id="as_eq"><br><br>
+			</p>
+			
+			<input type="submit" style="background-color:skyblue;color:black;width:120px;height:40px;" value="Advanced Search">
+		</form>
+	</body>
+</html>
